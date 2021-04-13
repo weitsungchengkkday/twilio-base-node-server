@@ -1,3 +1,7 @@
+
+1.修正無法正常啟動問題
+
+==========================================================
 Programmable Voice: Quickstart Application Server - Node
 ===
 This repository contains the server-side web application required to run the [Twilio Programmable Voice iOS SDK Quickstart](https://www.twilio.com/docs/api/voice-sdk/ios/getting-started) and [Android SDK Quickstart](https://www.twilio.com/docs/api/voice-sdk/android/getting-started) mobile sample apps.
