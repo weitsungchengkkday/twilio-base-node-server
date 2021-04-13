@@ -1,5 +1,15 @@
-
-1.修正無法正常啟動問題
+1. 更新 
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/qs": "^6.9.4",
+    "body-parser": "^1.18.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.60.0"
+  },
+  
+2.修正無法正常啟動問題
+    把 require('dotenv').load(); 改成 require('dotenv').config({path:'.env'});
 
 ==========================================================
 Programmable Voice: Quickstart Application Server - Node
